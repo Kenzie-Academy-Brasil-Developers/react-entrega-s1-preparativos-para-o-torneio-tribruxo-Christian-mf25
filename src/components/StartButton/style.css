@@ -1,0 +1,37 @@
+#start-Box{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	height: 100vh;
+	max-width: 90vw;
+
+	margin: 0 auto;
+}
+
+.start-Title{
+	color: #fff;
+	font-size: 2rem;
+}
+
+.start-instruction{
+	color: #fff;
+	font-size: 1.4rem;
+	text-align: center;
+
+	margin: 15px 0;
+}
+
+.start-button{
+	background-color: #f9e141;
+	
+	width: 180px;
+	height: 40px;
+
+	font-size: 1.3rem;
+
+	margin-top: 20px;
+
+	border-radius: 10px;
+}

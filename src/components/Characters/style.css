@@ -1,0 +1,36 @@
+.box{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: nowrap;
+
+	width: 80vw;
+	margin: 0 auto;
+}
+
+.selected-Wizzard{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.title{
+	color: rgb(240, 155, 155);
+	font-size: 2rem;
+
+	margin-top: 10px;
+}
+
+.tryAgain{
+	margin: 20px auto;
+
+	width: 200px;
+	height: 40px;
+
+	border-radius: 10px;
+
+	background-color: #f9e141;
+}

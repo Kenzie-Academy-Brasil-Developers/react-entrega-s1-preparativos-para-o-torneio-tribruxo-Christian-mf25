@@ -1,0 +1,31 @@
+#card{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	margin: 20px;
+
+	width: 220px;
+	height: 285px;
+}
+
+.name{
+	font-size: 1.3rem;
+	color: #fff;
+}
+
+.photo{
+	height: 190px;
+	width: 190px;
+
+	border-radius: 15px;
+}
+
+.ancestry{
+	font-size: 1.1rem;
+}
+
+.house{
+	font-size: 1.3rem;
+}
+
