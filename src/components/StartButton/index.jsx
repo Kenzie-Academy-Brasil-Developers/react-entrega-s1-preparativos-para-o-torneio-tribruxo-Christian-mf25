@@ -8,6 +8,7 @@ const StartButton = ({ handleShow }) => {
 			<h1 className="start-Title">Torneio tribruxo</h1>
 			<p className="start-instruction">Clique no botão para encontrar os feiticeiros!</p>
 			<button
+				type="button"
 				className="start-button"
 				onClick={handleShow}>
 				Começar!

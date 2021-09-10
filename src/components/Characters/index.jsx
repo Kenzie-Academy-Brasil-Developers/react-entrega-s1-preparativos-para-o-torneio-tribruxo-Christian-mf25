@@ -37,6 +37,7 @@ const Characters = ({ characterList, randomWizard }) => {
 			</div>
 
 			<button
+				type="button"
 				className="tryAgain"
 				onClick={choseWizard}
 			>
